@@ -16,9 +16,9 @@
 	$emailBlurb = '{ENTER EMAIL BLURB}';
 	$templateId = '{ENTER TEMPLATEID}';
 	$status = 'created'; // can be "created" or "sent"
-	$templateRoles = array(	"roleName" => "{ENTER ROLE NAME}",
-							"name" => "{ENTER RECIPIENT NAME}", 
-							"email" => "{ENTER RECIPIENT EMAIL}");
+	$templateRoles = array(	
+		array("roleName" => "{ENTER ROLE NAME}", "name" => "{ENTER RECIPIENT NAME}", "email" => "{ENTER RECIPIENT EMAIL}")
+	);
 	// optional
 	$eventNotifications = array();
 
